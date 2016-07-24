@@ -1,0 +1,51 @@
+/*
+@import url(http://fonts.googleapis.com/css?family=Lato:700);
+		html,
+		body {
+		  height: 100%;
+		  width: 100%;
+		}
+		html,
+		button,
+		input,
+		select,
+		textarea {
+		  color: #5e5e5e;
+		  -webkit-font-smoothing: antialiased;
+		}
+		body {
+		  background-color: #f0f1f1;
+		  font: 14px/24px Lato, Helvetica, Helvetica Neue, Arial;
+		  line-height: 1.4;
+		}
+		*/
+		#page {
+		  width: 275px;
+		  margin: 20px auto;
+		  position: absolute;
+		  top: 230px;
+		  left: 350px;
+		}
+		.progress-bar {
+		  display: inline-block;
+		  width: 275px;
+		  height: 275px;
+		  margin: 7px;
+		  padding: 0;
+		}
+		.progress-bar .progress-active {
+		  position: relative;
+		  top: -279px;
+		}
+		.progress-bar p {
+		  position: relative;
+		  margin: 0;
+		  padding: 0;
+		  width: 275px;
+		  top: -430px;
+		  font-family: 'Helvetica';	
+		  font-size: 24px;
+		  font-weight: 900;
+		  text-align: center;
+		}
+		

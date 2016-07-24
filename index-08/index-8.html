@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <title></title>
+    <link href="assets/css/reset.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/fonts.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/main.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/slides.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/specific.css" rel="stylesheet" type="text/css">
+    <!--link href="assets/css/progress.css" rel="stylesheet" type="text/css"-->
+    <script src="assets/js/jquery-2.1.3.min.js"></script>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/jquery.tap.js"></script>
+    <script src="assets/js/main.vars.js"></script>
+    <script src="assets/js/main.functions.js"></script>
+    <script src="assets/js/main.init.js"></script>
+	<!--script src="assets/js/progress.js"></script-->
+    <script src="assets/pdf/pdf.js"></script>
+    <script src="assets/js/openpdf.js"></script>
+
+    <!-- Add fancyBox >
+    <link rel="stylesheet" href="assets/js/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+    <script type="text/javascript" src="assets/js/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+    <-- Optionally add helpers - button, thumbnail and/or media ->
+    <link rel="stylesheet" href="assets/js/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+    <script type="text/javascript" src="assets/js/fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+    <script type="text/javascript" src="assets/js/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+    <link rel="stylesheet" href="assets/js/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+    <script type="text/javascript" src="assets/js/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script-->
+
+</head>
+<body>
+    <div id="wrapper">
+        <div id="contentWrapper">
+            <div class="content_header">
+            </div>
+            <div id="content" class="">
+                <div id="content_root" class="" style="display: block;">
+                    <div class="page" id="filler" style="position: absolute; display: block; z-index:1; left: 1024px; background-image: url(&quot;assets/img/main_bgr.jpg&quot;);"> 							
+                        <img src="assets/img/main_bgr.jpg" class=""> 						
+                    </div>
+                    <div class="page active" id="page-8" data-page-nr="8" style="position: absolute; display: block; left: 0px; background-image: url(&quot;assets/img/main_bgr.jpg&quot;);">
+                        <img src="assets/img/specific/rotateq-9.jpg" class="" usemap="#image-maps-2016-03-08-142230" alt="" />
+						<map name="image-maps-2016-03-08-142230" id="ImageMapsCom-image-maps-2016-03-08-142230">
+							<area  alt="ref1" title="" href="javascript:openPdf(15);" shape="rect" coords="28,590,694,603" style="outline:none;" target="_self"     />
+							<area  alt="ref2" title="" href="javascript:openPdf(16);" shape="rect" coords="26,602,175,614" style="outline:none;" target="_self"     />
+						</map>
+                    </div>
+                </div>
+                <div id="ref_viewer" style="display:none">
+					<img id="viewPDF-close" src="assets/img/btn_overlay_close.png" onclick="javascript:closePDF()" style="z-index: 0; position:absolute; left: 900px; top: 0px" />
+                    <iframe id="pdf1" style="display: block; width: 1024px; height:658px" src="assets/pdf/viewer.html?file=" frameborder="0"></iframe>
+                </div>
+                <div id="index_root" style="display: none;">
+                    <div id="tpage-1" class="tpage" style="position: absolute; left: 100px; top: 50px;"> <img class="img_thumb" data-page-nr="1" src="assets/img/specific/rotateq-9.jpg" class=""> 						</div>
+                    <div id="tpage-2" class="tpage" style="position: absolute; left: 400px; top: 50px;"> <img class="img_thumb" data-page-nr="2" src="assets/img/specific/rotateq-1.jpg" class=""> 						</div>
+                    <div id="tpage-3" class="tpage" style="position: absolute; left: 700px; top: 50px"> <img class="img_thumb" data-page-nr="3" src="assets/img/specific/rotateq-3.jpg" class=""> 						</div>
+                    <div id="tpage-4" class="tpage" style="position: absolute; left: 100px; top: 250px"> <img class="img_thumb" data-page-nr="4" src="assets/img/specific/rotateq-4.jpg" class=""> 						</div>
+                    <div id="tpage-5" class="tpage" style="position: absolute; left: 400px; top: 250px"> <img class="img_thumb" data-page-nr="5" src="assets/img/specific/rotateq-5.jpg" class=""> 						</div>
+                    <div id="tpage-6" class="tpage" style="position: absolute; left: 700px; top: 250px"> <img class="img_thumb" data-page-nr="6" src="assets/img/specific/rotateq-7.jpg" class=""> 						</div>
+                    <div id="tpage-7" class="tpage" style="position: absolute; left: 100px; top: 450px"> <img class="img_thumb" data-page-nr="7" src="assets/img/specific/rotateq-8.jpg" class=""> 						</div>
+                    <div id="tpage-8" class="tpage" style="position: absolute; left: 400px; top: 450px"> <img class="img_thumb" data-page-nr="8" src="assets/img/specific/rotateq-9.jpg" class=""> 						</div>
+                    <div id="tpage-9" class="tpage" style="position: absolute; left: 700px; top: 450px"> <img class="img_thumb" data-page-nr="9" src="assets/img/specific/rotateq-010.jpg" class=""> 						</div>
+                </div>
+            </div>
+            <div class="content_footer">
+                <img id="footer_imgg" src="assets/img/btn_footer_04.png" height="46">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
